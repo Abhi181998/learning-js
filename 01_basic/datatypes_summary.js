@@ -44,3 +44,42 @@
 // object
 // function
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+
+//*************************************************************************************************//
+ //stack is used with premitive type //heap is used with non primitive type
+
+// Stack example
+
+//  let username= "abhishek kumar"
+//  another_name = username
+//  another_name="dibakar pradhan"
+//  console.log(another_name)
+//  console.log(username)
+
+//  output:
+// @Abhi181998 ➜ /workspaces/learning-js (main) $ node 01_basic/datatypes_summary.js
+// dibakar pradhan
+// abhishek kumar
+
+// Heap example:
+
+// let userone={
+//     email: "abhi@gmail.com",
+//     phone: 82514,
+
+// }
+// let usertwo =userone
+// usertwo.email= "abhi.ak222",
+// console.log(userone);
+
+// output
+
+// @Abhi181998 ➜ /workspaces/learning-js (main) $ node 01_basic/datatypes_summary.js
+// { email: 'abhi@gmail.com', phone: 82514 }
+
+// @Abhi181998 ➜ /workspaces/learning-js (main) $ node 01_basic/datatypes_summary.js
+// { email: 'abhi.ak222', phone: 82514 }
